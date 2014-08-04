@@ -10,7 +10,7 @@ ZSH_THEME="gallois"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias apk="php ~/Sites/InstallApkToDevices/InstallApkToDevices.php "
+alias apk="php ~/Sites/InstallApkToDevices/InstallApkToDevices.php"
 alias logcat="/Users/weitsai/logcat-color/logcat-color"
 
 # Set to this to use case-sensitive completion
@@ -53,7 +53,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export im=/Volumes/MAC/im-studio
+export rubyx5=/Volumes/MAC/5xruby
 export ANDROID=/Applications/android/sdk/platform-tools
+export ANDROID_HOME=/Applications/android/sdk
 export PHP=/usr/local/php5/bin
 export PATH=$im:$PHP:$ANDROID:$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -64,7 +66,6 @@ export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
 # fi
-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
